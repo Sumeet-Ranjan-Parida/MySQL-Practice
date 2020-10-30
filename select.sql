@@ -12,4 +12,6 @@ select * from payments order by amount asc;
 
 select * from payments where amount >= 3000 order by amount asc;
 
+select * from payments limit 3;
+
 
